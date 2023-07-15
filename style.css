@@ -1,0 +1,181 @@
+html{
+    box-sizing:   border-box;
+    padding: 0;
+    margin: 0;
+    min-width:1440 px;
+}
+@font-face {
+    font-family: "overpass"; 
+  src: url(./design/Overpass-VariableFont_wght.ttf);
+  }
+
+  body{
+    width: 35%;
+    height: 50%;
+    margin: 20% 30% 0 30%;
+    padding: 0%;
+    background: black;
+  }
+
+  .boxdefi{
+    background:hsl(213, 19%, 18%) ;
+    color: white;
+    width: 300px;
+    height: 300px;
+    padding: 5%;
+    border-radius: 20px;
+  }
+
+  #star{
+ width: 20px;
+ height: 20px;
+    background:hsl(213, 19%, 18%) ;
+padding: 20px;
+border-radius: 50px;
+text-align: center;
+}
+
+#boxexplic{
+    font-size: 15px;
+    color:hsl(216, 12%, 54%)  ;
+}
+
+button{
+    background: hsl(25, 97%, 53%);
+    color:white;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.click-choix{
+   
+    width: 100%;
+    height: 50px;
+margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: grab;
+}
+.sub:hover{
+    background-color: #FFF;
+    color:hsl(25, 97%, 53%);
+}
+/*#btn2:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: grab;
+}
+#btn3:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: grab;
+}
+#btn4:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: grab;
+}
+#btn5:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: grab;
+}
+
+
+#btn1{
+    background:hsl(213, 19%, 18%) ;
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+#btn1{
+    background:hsl(213, 19%, 18%) ;
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+
+   border-radius: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+#btn1{
+    background:hsl(213, 19%, 18%) ;
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+#btn2{
+    background:hsl(213, 19%, 18%) ;
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+#btn3{
+    background:hsl(213, 19%, 18%) ;
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+#btn4{
+    background:hsl(213, 19%, 18%) ;
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 15px;
+}*/
+.btn{
+    background:hsl(213, 19%, 18%) ;
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+.defireponse{
+ 
+    text-align: center;
+    background:hsl(216, 12%, 8%) ;
+    color: white;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px; 
+    font-size: 15px;
+}
+#resultat{
+    color:hsl(25, 97%, 53%) ;
+background-color: hsl(213, 19%, 18%);
+width: 50%;
+height: 22px;
+border-radius: 20px;
+margin:20px 0 10px 80px
+
+}
+#boxthanks{
+    color: hsl(216, 12%, 54%) ;
+}
